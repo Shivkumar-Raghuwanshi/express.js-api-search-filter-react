@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+}
+
+.search {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.listItem {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #444
+}
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 18px;
+ 
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
